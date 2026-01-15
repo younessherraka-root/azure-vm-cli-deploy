@@ -1,3 +1,5 @@
+
+
 # 🚀 Automated Azure Infrastructure Deployment (IaC)
 
 This project demonstrates **Infrastructure as Code (IaC)** principles by automating the deployment of a complete Linux environment on Microsoft Azure using **Azure CLI** and **Bash scripting**.
@@ -84,3 +86,12 @@ packages:
   - nginx"
 
 
+
+
+---
+
+## 🧹 Cleanup
+To avoid unnecessary costs and clean up your Azure environment, delete the entire resource group and all associated resources with this single command:
+
+```bash
+az group delete --name TP-Azure-RG --yes --no-wait
